@@ -1,0 +1,7 @@
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+	background-color : #F2D380 !important;
+	color : black !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
