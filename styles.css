@@ -1,7 +1,79 @@
 /* Add application styles & imports to this file! */
+html,body {
+	height : 100% !important;
+}
+.logo {
+	width : 70% !important;
+}
+.giveSpace {
+	padding-left : 30px !important;
+	padding-right : 30px !important;
+	padding-top : 5px !important;
+}
+.marginTop {
+	margin-top : 20px !important;
+}
 
-.tutorial {
-  margin:16px;
-  border-left:1px solid red;
-  padding-left:16px;
+.borderRadius {
+	border-radius : 0px !important;
+}
+
+.mainColor {
+	color : #F14F23 !important;
+}
+
+.whiteFont {
+	color : white !important;
+}
+.customBtnHeader:hover {
+	background-color : #343A40 !important;
+}
+
+.fullHeight {
+	height : 100% !important;
+}
+
+td ,th{
+	background-color : #E9EDF4 !important;
+	border: 2px solid white !important;
+	text-align :center;
+}
+
+td,tr,th {
+	padding : 5px !important;
+}
+
+.customJumb {
+	color : white !important;
+	background-color : #4F81BD !important;
+	border-radius : 0px !important;
+	padding : 0px !important;
+}
+.customJumb a {
+	color : white !important;
+}
+
+.customBtn {
+	padding-top : 30px !important;
+	background-color : #4F81BD !important;
+}
+
+.customBtnHeader {
+	background-color : #4F81BD !important;
+}
+
+.customBtn:hover , .customBtnHeader:hover {
+	background-color : #343A40 !important;
+}
+
+.mainColor {
+	color : #F14F23 !important;
+}
+
+.groupsBtn {
+	border : none !important;
+}
+
+.groupColor1 {
+	background-color : #F14F23 !important;
 }

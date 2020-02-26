@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, 
@@ -15,7 +16,7 @@ import { AboutComponent } from './about/about.component';
       {path: 'about', component: AboutComponent}
   ])
    ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, HeaderComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

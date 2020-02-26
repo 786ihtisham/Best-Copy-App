@@ -8,9 +8,4 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent {
   listOfPeople = ['Stephen', 'Elana', 'Kara'];
 
-  addPerson() {
-    let newPerson = prompt('Name someone');
-    this.listOfPeople.push(newPerson);
-  }
-
 }
